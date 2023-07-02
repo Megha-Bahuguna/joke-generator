@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100&family=Poppins:wght@300;600&family=Source+Sans+Pro:wght@300;600;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/joke1.jpg) center center/cover no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.block{
+    display: grid;
+   grid-template-columns: auto;
+
+}
+
+.main_container{
+    background-color: rgb(255 253 166 / 87%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 21px 15px;
+    max-width: 86%;
+    width: 673px;
+    text-align: center;
+    margin: 23px 16px;
+}
+
+
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.joke{
+    font-size: 30px;
+    color: black;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn{
+    background-color: rgb(237, 65, 65);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 11px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);;
+
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+
+
+.btn:active{
+    transform: scale(.88);
+}
+
+
+
+.fas{
+    margin-left: 4px;
+}
+
+
+
+
